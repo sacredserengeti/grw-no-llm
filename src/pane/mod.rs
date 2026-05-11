@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::sync::Arc;
 
 use crossterm::event::KeyEvent;
 use ratatui::{Frame, layout::Rect};

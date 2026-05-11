@@ -1,10 +1,10 @@
 use crossterm::event::{KeyCode, KeyModifiers};
 use ratatui::{
     Frame,
-    layout::{Constraint, Direction, Layout, Rect},
+    layout::Rect,
     style::{Modifier, Style},
     text::{Line, Span},
-    widgets::{Block, Borders, List, ListItem, Paragraph, Wrap},
+    widgets::{Block, Borders, List, ListItem, Paragraph},
 };
 
 use super::{AppEvent, Pane};
